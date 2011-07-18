@@ -20,11 +20,12 @@ setup(
     ],
     classifiers = [
         'Development Status :: 4 - Beta',
-        'Environment :: Other Environment',
+        'Environment :: Web Environment',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
+        'Framework :: Django',
         'Topic :: Utilities'
     ],
 )
