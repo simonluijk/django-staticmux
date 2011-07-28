@@ -4,7 +4,7 @@
 from distutils.core import setup
 
 setup(
-    name = 'staticmux',
+    name = 'django-staticmux',
     description = 'Django app to simplifiy development and deployment of CSS and Javascript for Django projects.',
     version = '0.0.1',
     author = 'Simon Luijk',
