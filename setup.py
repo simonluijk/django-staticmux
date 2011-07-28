@@ -14,6 +14,7 @@ setup(
         'staticmux',
         'staticmux.conf',
         'staticmux.filters',
+        'staticmux.filters.cssmin',
         'staticmux.management',
         'staticmux.management.commands',
         'staticmux.templatetags',
