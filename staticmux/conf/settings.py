@@ -21,5 +21,6 @@ STATICMUX_CSS = getattr(settings, 'STATICMUX_CSS', {
 })
 
 STATICMUX_CSS_FILTERS = getattr(settings, 'STATICMUX_CSS_FILTERS', [
+    'staticmux.filters.urlrewrite.UrlRewrite',
     'staticmux.filters.cssmin.CSSMin',
 ])
