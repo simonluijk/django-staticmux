@@ -1,8 +1,8 @@
 # -*- coding: UTF-8 -*-
 
-from ..filters.cssmin import cssmin
+from .cssmin import cssmin
 
 
-class CSSMin:
+class CSSMin(object):
     def process(self, content):
         return cssmin(content)
