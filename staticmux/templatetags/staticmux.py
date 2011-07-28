@@ -70,7 +70,7 @@ def _outputfiles(conf, file_name, template_str, ext):
     else:
         for file_name in files:
             key_path = u"%s.key" % finders.find(file_name, all=False)
-            key = unicode(open(key_path, 'r').read(), encoding='utf-8').strip()
+            key = unicode(open(key_path, 'r').read(), encoding='utf-8').strip()[:6]
             file_name = u"%s?key=%s" % (file_name, key)
             output += template_str % (settings.STATIC_URL, file_name)
     return output.strip()
